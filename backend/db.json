@@ -1,0 +1,86 @@
+{
+  "users": [
+    {
+      "id": "user_001",
+      "name": "刘高尚",
+      "phone": "13800138000",
+      "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=Felix",
+      "points": 2500,
+      "level": "advanced-vip",
+      "createdAt": "2026-05-01T08:00:00Z"
+    }
+  ],
+  "orders": [
+    {
+      "id": "ord_20260517001",
+      "userId": "user_001",
+      "amount": 99,
+      "points": 1200,
+      "status": "completed",
+      "createdAt": "2026-05-15T14:30:00Z"
+    }
+  ],
+  "transactions": [
+    {
+      "id": "txn_001",
+      "userId": "user_001",
+      "type": "recharge",
+      "amount": 1200,
+      "balanceAfter": 2500,
+      "description": "充值套餐：1200积分（赠送200）",
+      "createdAt": "2026-05-15T14:30:00Z"
+    },
+    {
+      "id": "txn_002",
+      "userId": "user_001",
+      "type": "consume",
+      "amount": -50,
+      "balanceAfter": 2450,
+      "description": "AI 工具调用：Listing 优化",
+      "createdAt": "2026-05-16T09:15:00Z"
+    }
+  ],
+  "courses": [
+    {
+      "id": "course_001",
+      "title": "亚马逊从零到一：选品篇",
+      "progress": 100,
+      "isLocked": false,
+      "thumbnail": "https://images.unsplash.com/photo-1556742049-0cfed4f7a07d?auto=format&fit=crop&q=80&w=400"
+    },
+    {
+      "id": "course_002",
+      "title": "高阶运营：PPC 广告打法详解",
+      "progress": 45,
+      "isLocked": false,
+      "thumbnail": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&q=80&w=400"
+    },
+    {
+      "id": "course_003",
+      "title": "品牌出海：独立站建设指南",
+      "progress": 0,
+      "isLocked": true,
+      "thumbnail": "https://images.unsplash.com/photo-1526304640152-d4619684e484?auto=format&fit=crop&q=80&w=400"
+    }
+  ],
+  "aiTools": [
+    {
+      "id": "tool_listing",
+      "name": "Listing 智能优化",
+      "cost": 50,
+      "description": "基于热搜词算法，一键生成高转化率文案"
+    },
+    {
+      "id": "tool_keywords",
+      "name": "关键词深度挖掘",
+      "cost": 30,
+      "description": "挖掘长尾流量词，覆盖竞品盲区"
+    },
+    {
+      "id": "tool_review",
+      "name": "评论情感分析",
+      "cost": 40,
+      "description": "自动提炼买家痛点，辅助产品迭代"
+    }
+  ]
+}
