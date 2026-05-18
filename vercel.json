@@ -1,5 +1,4 @@
 {
-  "root": "frontend",
   "buildCommand": "pnpm install && pnpm vite build",
   "installCommand": "pnpm install",
   "outputDirectory": "dist",
